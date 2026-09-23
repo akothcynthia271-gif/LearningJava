@@ -5,6 +5,8 @@ public class Program {
 
         System.out.println("Write something:");
 
-        string message= Scanner.nextLine();
+        String message= scanner .nextLine();
+
+        System.out.println("you wrote " + message);
     }
 }
